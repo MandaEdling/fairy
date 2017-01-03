@@ -1,4 +1,4 @@
-# fairy
+# Fairy Animaiton
 2D animation of a yellow fairy using js and css
 
 *The fairy code js animation was created using 
