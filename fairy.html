@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fairy</title>
+  <!-- Behavioral Meta Data -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+</head>
+<body>
+  <div id="container" class="wrapper">
+    <ul id="scene" class="scene unselectable" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" data-mode="cursor">
+      <li class="bounce" data-depth="0.10">
+            <span id="layerFairy">
+              <canvas id="fairyAnimation"></canvas>
+            </span>
+                <!-- fairy wings flapping animation -->
+            <span id="layerWings">
+              <canvas id="wingsAnimation"></canvas>
+            </span>
+                <!-- fairy eyes blinking animation -->
+            <span id="layerEyes">
+              <canvas id="eyesAnimation"></canvas>
+            </span>
+                <!-- fairy legs bobbing animation -->
+            <span id="layerLegs">
+              <canvas id="legsAnimation"></canvas>
+            </span>
+                <!-- fairy arms bobbing animation-->
+            <span id="layerArms">
+              <canvas id="armsAnimation"></canvas>
+            </span>
+      </li>
+    </ul>
+  </div>
+  <!-- Scripts -->
+  <script src="scripts/jquery.js"></script>
+  <script src="scripts/sprite-animation-rest.js"></script>
+</body>
+</html>
